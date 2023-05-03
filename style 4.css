@@ -1,0 +1,31 @@
+p{
+	font-size: 25px;
+	color: brown;
+
+}
+h4{
+	font-size: 45px;
+	
+}
+h2{
+	text-align: center;
+	font-size: 50px;
+	padding: 35px;
+	color: #0000A0;
+}
+h5{
+	text-align: right;
+	font-size: 35px;
+	color: ;
+}
+body{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7ldL0Ql98TX5aMkwTu7EdxK1YcD9m8hosWg&usqp=CAU);
+	}
+
+nav{
+
+	text-align: center;
+	word-spacing: 35px;
+	font-size: 40px;
+	padding: 30px;
+}	

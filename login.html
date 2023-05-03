@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login form</title>
+	<link rel="stylesheet" type="text/css" href="style 5.css">
+
+</head>
+<body>
+<form action="swipe.html" method="post">
+	<div>
+		<label for="username">Username</label>
+		<input type="text" name="username" placeholder="Enter your Name">
+		<span></span>
+	</div>
+	<div>
+	<label for="password">Password</label>
+	<input type="password" name="password" placeholder="Enter Password">
+<span></span>
+</div><button type="button"><a href="file:///C:/Users/lenovo/Desktop/kaviya/home.html">Login</a></button>
+	
+</form>
+
+</body>
+</html>
+<script type="text/javascript">
+	window.onload =()=>{
+      
+      this.sessionStorage.setItem("Username","sakaos_userooo");
+      this.sessionStorage.setItem("password","sakaos_paswordooo");
+}
+
+var input = document.getElementsByTagName('input');
+var login = document.getElementsById('login');
+var form = document.querySelector('form');
+form.onsubmit =()=>{return false}
+login.onclick = ()=>{
+
+if((input[0].value !="") && (input[1].value !=""))
+{
+
+}
+else
+{
+	if(input[0].value =="")
+	{
+		input[0].nextElementSibiling.textContent = "Username is empty";
+
+		setTimeout(()=>{
+			input[0].nextElementSibiling.textContent ="";
+		},2000)
+	}
+}
+if(input[1].value =="")
+	{
+		input[1].nextElementSibiling.textContent = "password is empty";
+
+		setTimeout(()=>{
+			input[1].nextElementSibiling.textContent ="";
+		},2000)
+	}
+}
+</script>
